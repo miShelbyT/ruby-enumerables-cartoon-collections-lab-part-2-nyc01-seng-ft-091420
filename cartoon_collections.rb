@@ -18,7 +18,7 @@ end
   # Return the boolean result of this check
 
 def find_valid_calls(planeteer_calls)
-  # valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
+  valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
   planeteer_calls.find { |string| string == valid_calls }
 end
   # Use an Enumerable to check if any elements in the passed in array match the valid calls listed above
